@@ -1,0 +1,84 @@
+    .logo{
+    display:flex;
+    justify-content:left;
+    width: 50px;
+    height: 50px;
+    
+}
+
+header{
+  background-color: white;
+  width:auto;
+  height: auto;
+  
+}
+
+header h1{
+
+    color: black;
+    text-align: center;
+    font-size: medium;
+}
+
+
+nav{
+   display:flex;
+   gap:30px;
+}
+
+
+
+nav ul{
+    list-style: none;
+
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+nav li{
+    float: right;
+    
+    padding: 0.6rem 1.5rem;
+  border-radius: var(--radius);
+
+}
+nav a{
+    margin-right: 20px;
+   text-decoration: none;
+   font-size:  30px; 
+    color:white
+  
+}
+
+
+
+nav {
+    background-color: rgb(9, 9, 143);
+    overflow: auto;
+    list-style-type: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header h1{
+
+    display: inline-block;
+    padding: 1rem 2.2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.25s ease;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.01empx;
+}
+
+main h1{
+    font-family: sans-serif;
+    justify-content: center;
+    border-radius: 30px
+    
+}
